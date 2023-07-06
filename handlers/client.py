@@ -1,5 +1,8 @@
+# Импорт основных методов из библиотеки aiogram
 from aiogram import types, Dispatcher
+# Импорт переменных с большим текстом из отедльного файла
 from text_commands_for_tbot import comanda_start
+# Связь методов из этого файла с объектами "кнопка" из папки keyboards
 from keyboards import kb_client
 
 
